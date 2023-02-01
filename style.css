@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.top {
+    position: relative;
+    padding: 25px 0 0 0;
+    font-family: Tahoma;
+    background-color: rgb(255, 200, 0);
+}
+
+.img1 {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    border: solid;
+}
+
+.img2 {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    border: solid;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.top * {
+    margin: 0;
+}
+
+.middle {
+    position: relative; 
+    padding: 60px 0 0 0;
+    font-family: Georgia;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(108, 215, 254);
+    color: purple;
+    margin-bottom: -8px;
+}
+
+.bottom {
+    padding: auto;
+    font-family: Tahoma;
+    background-color: aquamarine;
+    text-align: center;
+    color: darkblue;
+    margin-bottom: -14px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    background-color: greenyellow;
+}
+
+ul {
+    list-style: none;
+}
+
+.button {
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+hr.new1 {
+    border-top: 1px solid;
+}
+
+hr.new2 {
+    border-top: 1px darkblue solid;
+}
+
+hr.new3 {
+    border-top: 1px darkblue dashed;
+}
+
+.lang {
+    column-count: 2;
+    float: center;
+    
+}
+
+.leadexp {
+    column-count: 2;
+    float: center;
+}
+
+.skills {
+    column-count: 2;
+    float: center;
+    
+}
+
+.card {
+    box-shadow: 1px 2px;
+    background-color: antiquewhite;
+    outline: auto;
+}
+
+.me {
+    border-radius: 25%;
+}
